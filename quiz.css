@@ -1,0 +1,44 @@
+#total {
+ visibility: hidden;
+ color: white;
+ margin-top: 100px;
+ background-color: rgba(89, 89, 89, 0.6);
+ padding: 30px;
+ border-radius: 40px;
+ width: 80%;
+ 
+}
+
+.navbar{
+  
+    background-color: rgba(19, 26, 47, 0.98);
+    color: white;
+    
+}
+.navbar-text{
+    font-size: 40px;
+}
+
+body {
+  
+    background-image: url(img/dota2-1576909306304-6284.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+
+}
+
+.container {
+    color: white;
+    margin-top: 100px;
+    background-color: rgba(89, 89, 89, 0.6);
+    padding: 30px;
+    border-radius: 40px;
+}
+
+.score h1 {
+    color: red;
+}
+
+.score h1 h2{
+    text-shadow: 5px 5px 8px #000000;
+}

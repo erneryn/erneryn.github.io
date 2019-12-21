@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dota Knowledge</title>
+  <link rel = "icon" type = "image/png" href = "img/Dota-2-Logo-500x281.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="quiz.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<!-- Image and text -->
+<nav class="navbar">
+        <a class="navbar-brand mx-auto">
+          <img src="img/Dota-2-Logo-500x281.png"  height="80" class="d-inline-block align-top" alt="">
+          <span class="navbar-text">
+DOTA QUIZ CHALLENGE
+              </span>
+        </a>
+      </nav>
+  
+<div id="soal" class="container">
+    <div class="text-center">
+        <h3 id="question">Pertanyaan 1 adalah ?</h3>
+    </div>
+  <div class="row" id="answer">
+        <button id='a'type="button" class="btn btn-dark btn-block text-left">Full-Width Button</button>
+        <button id='b'type="button" class="btn btn-secondary btn-block text-left">Full-Width Button</button>
+        <button id='c' type="button" class="btn btn-dark btn-block text-left">Full-Width Button</button>
+        <button id='d' type="button" class="btn btn-secondary btn-block text-left">Full-Width Button</button>
+  </div>
+</div>
+<div id='total' class="result mx-auto">
+        <div class="text-center">
+                <h3 id="question">Your Score Is</h3>
+        </div>
+        <div class="text-center score">
+                <h1 id="score">0</h1>
+                <h2></h2>
+                <button id="try" type="button" class="btn btn-danger" onClick="document.location.reload(true)">Try Again ??</button>
+        </div>
+</div>
+
+<script src="quiz.js"></script>
+</body>
+</html>
